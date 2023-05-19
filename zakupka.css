@@ -4,6 +4,9 @@
 }
 body{
   background-color:#d5c6ba ;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 header {
     display: flex;
@@ -428,8 +431,7 @@ footer{
   min-height: 70px;
   width: 100%;
   margin-top: auto;
-  position: relative;
-  top: 150px;
+
 }
 footer .footer_text{
   color:#413028;
