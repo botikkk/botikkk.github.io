@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="shortcut icon" href="/favicon.ico.ico"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Press+Start+2P&family=Titan+One&display=swap" rel="stylesheet">  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Боб-строитель</title>
+    <link rel="stylesheet" href="tovari.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+          <a href="index.html">
+            <img src="логот 1.png" width="60" height="70px" />
+          </a>
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="лк.html">Личный кабинет</a></li>
+            <li><a href="товары.html">Товары</a></li>
+            <li><a href="отзывы.html">Отзывы</a></li>
+            <li><a href="регистрация.html">Регистрация</a></li>
+            <li><a href="закупка.html">Закупка</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <a href="#" id="main">
+        <div id="okno">
+          <p>Товар добавлен в корзину</p>
+        </div>
+      </a>
+
+      <a href="#" id="maln">
+        <div id="okno2">
+          <p>Заказ оформлен</p>
+        </div>
+      </a>
+
+      <!--модальное окно-->
+<div id="openModal" class="modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title">Оформление заказа</h3>
+        <a href="#close" title="Close" class="close">×</a>
+      </div>
+
+      <div class="modal-body">    
+        <div class="form-fields">
+          <div class="form-field">
+              <input type="text" placeholder="номер телефона">
+              &nbsp;&nbsp;
+              <label>
+                <input type="radio" name="status">
+                оплата картой
+              </label>
+              &nbsp;&nbsp;&nbsp;
+              <label>
+                <input type="radio" name="status">
+                оплата наличными
+              </label>
+              <div class="dan">
+                <p>данные карты (при необходимости)</p>
+              </div>
+              <div class="nk">
+              <input type="text" placeholder="номер карты">
+              <input type="text" placeholder="срок действия">
+              <input type="text" placeholder="cvv/cvc">
+            </div>
+            <div class="pole">
+              <textarea rows="5" cols="55" placeholder="Введите ваш адрес"></textarea>
+            </div>
+
+              <a href="#maln">
+                <div class="knopka2">
+                <div class="otp">Заказать</div>
+                </div>
+                </a>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+      <div class="text">
+        <a>Наши товары</a>
+      </div>
+
+    <div class="perv">
+      <div class="card">
+        <p>Сухая смесь</p>
+        <div class=t1><img src="t1.png" width="140" height="180"></div>
+        <h1>Цена: 230 руб/шт</h1>
+        <div class="vkladki">
+          <p><a href="#main">в корзину</a></p>
+          <p><a href="#openModal">купить</a></p>
+      </div>
+      </div>
+
+      <div class="card">
+        <p>Грунтовка адгезионная</p>
+            <div class=t2><img src="t2.png" width="175" height="180"></div>
+            <h1>Цена: 1 849 руб/шт</h1>
+            <div class="vkladki">
+              <p><a href="#main">в корзину</a></p>
+              <p><a href="#openModal">купить</a></p>
+          </div>
+        </div>
+             
+        <div class="card">
+          <p>Гвозди ершенные</p>
+                <div class=t3><img src="t3.png" width="175" height="180"></div>
+                <h1>Цена: 1250 руб/шт</h1>
+                <div class="vkladki">
+                  <p><a href="#main">в корзину</a></p>
+                  <p><a href="#openModal">купить</a></p>
+            </div>
+    </div>
+
+            <div class="card">
+              <p>Разбавитель акриловый</p>
+                    <div class=t4><img src="t4.png" width="175" height="180"></div>
+                    <h1>Цена: 930 руб/шт</h1>
+                    <div class="vkladki">
+                      <p><a href="#main">в корзину</a></p>
+                      <p><a href="#openModal">купить</a></p>
+                </div>
+                </div>
+
+                    <div class="card">
+                      <p>Клей экспресс</p>
+                        <div class=t5><img src="t5.png" width="175" height="180"></div>
+                        <h1>Цена: 401 руб/шт</h1>
+                        <div class="vkladki">
+                          <p><a href="#main">в корзину</a></p>
+                          <p><a href="#openModal">купить</a></p>
+                    </div>
+                    </div>
+
+                </div>
+
+            <div class="vtor">
+                <div class="cardi">
+                  <p>Стекло жидкое</p>
+                            <div class=t6><img src="t6.png" width="175" height="180"></div>
+                            <h1>Цена: 174 руб/шт</h1>
+                            <div class="vkladki">
+                              <p><a href="#main">в корзину</a></p>
+                              <p><a href="#openModal">купить</a></p>
+                        </div>
+                        </div>
+
+                        <div class="cardi">
+                          <p>Гипс строительный</p>
+                                <div class=t7><img src="t7.png" width="175" height="180"></div>
+                                <h1>Цена: 201 руб/шт</h1>
+                                <div class="vkladki">
+                                  <p><a href="#main">в корзину</a></p>
+                                  <p><a href="#openModal">купить</a></p>
+                            </div>
+                            </div>
+
+                            <div class="cardi">
+                              <p>Строительный песок</p>
+                                    <div class=t8><img src="t8.png" width="175" height="180"></div>
+                                    <h1>Цена: 170 руб/шт</h1>
+                                    <div class="vkladki">
+                                      <p><a href="#main">в корзину</a></p>
+                                      <p><a href="#openModal">купить</a></p>
+                                </div>
+                                </div>
+
+                                <div class="cardi">
+                                  <p>Портландцемент</p>
+                                        <div class=t9><img src="t9.png" width="175" height="180"></div>
+                                        <h1>Цена: 980 руб/шт</h1>
+                                        <div class="vkladki">
+                                          <p><a href="#main">в корзину</a></p>
+                                          <p><a href="#openModal">купить</a></p>
+                                    </div>
+                                    </div>
+
+                                    <div class="cardi">
+                                      <p>Известь гашенная</p>
+                                            <div class=t10><img src="t10.png" width="175" height="180"></div>
+                                            <h1>Цена: 79 руб/шт</h1>
+                                            <div class="vkladki">
+                                              <p><a href="#main">в корзину</a></p>
+                                              <p><a href="#openModal">купить</a></p>
+                                        </div>
+                                        </div>
+                                        </div>
+                                    </div>
+      </div>
+</body>
+
+<footer>
+  <p class="footer_text">Все права защищены © 2023</p>
+</footer>
+
+</html>
