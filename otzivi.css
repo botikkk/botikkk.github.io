@@ -91,6 +91,9 @@ main .main_promo_text{
     position:absolute;
     left:403px;
     top:150px;
+    display: flex;
+  justify-content: center;
+  margin-top: 0px;
     }
 
     /* Стили всплывающего окна по-умолчанию */
@@ -309,8 +312,3 @@ body {
   margin-top: 0px;
 }
 
-.pomo{
-  display: flex;
-  justify-content: center;
-  margin-top: 0px;
-}
