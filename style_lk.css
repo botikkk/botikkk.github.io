@@ -133,7 +133,8 @@ main .nazv{
     font-size: 20px;
     line-height: 18px;
     list-style: none;
-    padding-left: 665px;
+    padding-left: 15px;
+  
   }
   
   .vkladki li {
@@ -148,6 +149,12 @@ main .nazv{
     color: #433a34;
     text-decoration: underline;
     
+  }
+
+  .pom{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
   }
 
   footer{

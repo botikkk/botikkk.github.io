@@ -227,7 +227,7 @@ position: relative;
   padding-top: 20px;
   padding-bottom: 20px;
   bottom: 200px;
-  left: 697px;
+  left: 10px;
   top: 475px;
   cursor: pointer;
 }
@@ -301,4 +301,16 @@ body {
   text-decoration: none;
   position: relative;
   left: 20px;
+}
+
+.pom{
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+.pomo{
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
 }
