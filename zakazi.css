@@ -85,7 +85,7 @@ main .main_promo_text{
     padding-right: 90px;
     padding-top: 200px;
     padding-bottom: 200px;
-    left: 570px;
+    left: 0px;
     top: 130px;
 }
 
@@ -129,4 +129,10 @@ main .main_promo_text{
       min-height: 100vh;
       display: flex;
       flex-direction: column;
+    }
+
+    .mas{
+      display: flex;
+      justify-content: center;
+      margin-top: 0px;
     }

@@ -552,4 +552,11 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.mas{
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  padding-bottom: 100px;
+}
   

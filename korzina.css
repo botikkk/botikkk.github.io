@@ -85,7 +85,7 @@ main .main_promo_text{
     padding-right: 90px;
     padding-top: 200px;
     padding-bottom: 200px;
-    left: 570px;
+    left: 0px;
     top: 130px;
 }
 
@@ -110,3 +110,29 @@ main .main_promo_text{
     left:113px;
     top:190px;
     }
+
+.mas{
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#bcb2aa;
+  min-height: 70px;
+  width: 100%;
+  margin-top: auto;
+}
+footer .footer_text{
+  color:#413028;
+  font-weight: 500;
+  font-size: 16px;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
