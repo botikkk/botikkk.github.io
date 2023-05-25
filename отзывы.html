@@ -12,32 +12,63 @@
     <link rel="stylesheet" href="otzivi.css">
 </head>
 <body>
-    <header>
-        <div class="logo">
-          <a href="index.html">
-            <img src="логот 1.png" width="60" height="70px" />
-          </a>
-        </div>
-        <div class="menu">
-          <ul>
-            <li><a href="index.html">Главная</a></li>
-            <li><a href="лк.html">Личный кабинет</a></li>
-            <li><a href="товары.html">Товары</a></li>
-            <li><a href="отзывы.html">Отзывы</a></li>
-            <li><a href="регистрация.html">Регистрация</a></li>
-            <li><a href="закупка.html">Закупка</a></li>
-          </ul>
-        </div>
-      </header>
-
-      <div class="text_otz">
-        <a>Отзывы</a>
-      </div>
+  <header>
+    <div class="logo">
+      <a href="index.html">
+        <img src="логот 1.png" width="60" height="70px" />
+      </a>
+    </div>
+    <div class="menu">
+      <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="лк.html">Личный кабинет</a></li>
+        <li><a href="товары.html">Товары</a></li>
+        <li><a href="отзывы.html">Отзывы</a></li>
+        <li><a href="регистрация.html">Регистрация</a></li>
+        <li><a href="закупка.html">Закупка</a></li>
+      </ul>
+    </div>
+  </header>
+  <main>
+      <h1>Отзывы</h1>
       <div class="otziv">
-        <img src="otz.png" width="750" height="480">
+        <div class="item">
+          <img src="img/icons/user.png" alt="" class="ava">
+          <h2 class="item_subheader">Балашевский Владимир</h2>
+          <p class="item_text">Отличное качетво, быстрая доставка.</p>
+        </div>
+        <div class="item">
+          <img src="img/icons/user.png" alt="" class="ava">
+          <h2 class="item_subheader">Уралова Жасмин</h2>
+          <p class="item_text">Все доставили в срок, помогли с выбором.</p>
+        </div>
+        <div class="item">
+          <img src="img/icons/user.png" alt="" class="ava">
+          <h2 class="item_subheader">Калач Ульяна</h2>
+          <p class="item_text">Очень хорошее качетво.</p>
+        </div>
+        <div class="item">
+          <img src="img/icons/user.png" alt="" class="ava">
+          <h2 class="item_subheader">Зацепилин Матвей</h2>
+          <p class="item_text">Нормальный сайт.</p>
+        </div>
+        <div class="item">
+          <img src="img/icons/user.png" alt="" class="ava">
+          <h2 class="item_subheader">Великий Уничтожитель</h2>
+          <p class="item_text">Качетво материалов замечательное.</p>
+        </div>
+        <div class="item">
+          <img src="img/icons/user.png" alt="" class="ava">
+          <h2 class="item_subheader">Куличков Игорь</h2>
+          <p class="item_text">Заказываю материалы только тут.</p>
+        </div>
       </div>
-
-      <!--модальное окно-->
+    <button class="knopka" onclick="window.location.href='#openModal'">Оставить отзыв</button>
+  </main>
+  <footer>
+    <p class="footer_text">Все права защищены © 2023</p>
+  </footer>
+</body>
 <div id="openModal" class="modal">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -45,40 +76,19 @@
         <h3 class="modal-title">Ваш отзыв</h3>
         <a href="#close" title="Close" class="close">×</a>
       </div>
-
       <div class="modal-body">    
         <div class="form-fields">
           <div class="form-field">
-              <input type="text" placeholder="ФИО/псевдоним">
-              <div class="pole">
-                <textarea placeholder="Введите отзыв"></textarea>
-              </div>
-              <a href="отзывы.html">
-                <div class="knopka2">
-                <div class="otp">Отправить</div>
-                </div>
-                </a>
+            
+            <input type="text" placeholder="ФИО/псевдоним">
+            <div class="pole">
+              <textarea placeholder="Введите отзыв"></textarea>
+            </div>
+              <button class="knopka"onclick="window.location.href='отзывы.html'">Отправить</button>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
-</div>
-</div>
-</div>
- 
-<!-- кнопка -->
-<a href="#openModal">
-<div class="pom">
-<div class="knopka">
-<div class="ot">Оставить отзыв</div>
-</div>
-</div>
-</a>
-
-</body>
-
-<footer>
-  <p class="footer_text">Все права защищены © 2023</p>
-</footer>
-
 </html>
-      
